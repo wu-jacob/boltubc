@@ -53,3 +53,23 @@ svg {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
+
+@media (max-width: 1024px) {
+    /* Your smartphone styles go here */
+  
+    /* For example, adjust the padding and font size */
+    .middle {
+        visibility: hidden !important;
+    }
+    
+    .top {
+        visibility: hidden;
+    }
+    
+    .bottom {
+        visibility: hidden;
+    }
+    
+  
+    /* You can add more styles as needed for your smartphone design */
+  }
