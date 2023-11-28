@@ -11,7 +11,7 @@ function AboutPage() {
 
     return (
         <div className="about-body header-body">
-            <Header />
+            <Header title="About Us" titleLineOne="Meet the 2023/2024" titleLineTwo="Bolt Family."/>
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ scale: 1.01 }}
