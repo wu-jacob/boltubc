@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from '../../../../components/navbar/navbar';
+import Navbar from '../navbar/navbar';
 import styles from './css/header.css';
-import logo from '../../../../images/logo/bolt.png';
-import FadeShapes from '../fade-shapes/shapes';
+import logo from '../../images/logo/bolt.png';
+import FadeShapes from '../../pages/About-page/about-page-components/fade-shapes/shapes';
 import { motion } from "framer-motion"
 
 function Header(props) {
