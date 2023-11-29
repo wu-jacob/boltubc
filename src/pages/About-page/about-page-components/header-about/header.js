@@ -5,7 +5,7 @@ import logo from '../../../../images/logo/bolt.png';
 import FadeShapes from '../fade-shapes/shapes';
 import { motion } from "framer-motion"
 
-function Header() {
+function Header(props) {
     const logo_style = {
         width: '100px',
     };
@@ -21,15 +21,15 @@ function Header() {
                         transition={{ duration: 1.5, type: "spring" }}>
                         <img src={logo} style={logo_style} />
                         <div className="title">
-                            About Us
+                            {props.title}
                         </div>
                     </motion.div>
                 </div>
                 <div className="title-text one">
-                    Meet the 2023/2024
+                    {props.titleLineOne}
                 </div>
                 <div className="title-text">
-                    Bolt Family.
+                    {props.titleLineTwo}
                 </div>
                 </div>
             </div>
