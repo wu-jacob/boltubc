@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './css/about.css';
-import Header from './about-page-components/header-about/header';
+import Header from '../../components/header-about/header';
 import { motion } from "framer-motion"
 import alexy from "../../images/bolt pfp/alexy-no-back.png"
 import TeamsPage from './about-page-components/team-components/team-page';
