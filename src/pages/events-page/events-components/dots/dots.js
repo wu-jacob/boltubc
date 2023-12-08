@@ -14,7 +14,7 @@ function Dots({ style }) {
             whileInView="visible"
             viewport={{ once: false }}
             variants={{
-                visible: { opacity: 1, scale: 1 },
+                visible: { opacity: 1, scale: 0.75 },
                 hidden: { opacity: 0, scale: 0.5 }
             }}
             transition={{
