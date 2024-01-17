@@ -34,53 +34,58 @@ function Info({ image, description, multiplyer, title }) {
     const posY = String(multiplyer + 15) + 'px';
     return (
         <div className='positioning'>
-            <div
+            <div className='positioning2'
                 style={{
                     position: 'relative',
+                    top: posY, 
                     display: 'flex',
-                    top: posY,
                 }}
             >
-                <motion.div className='imgBorder'
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: false }}
-                    variants={{
-                        visible: { opacity: 1, left: '0' },
-                        hidden: { opacity: 0, left: '-20px' }
-                    }}
-                    transition={{
-                        delay: 0.4,
-                        duration: 0.2,
-                        ease: 'easeIn'
-                    }}
-                    exit={{
-                        delay: 0,
-                        opacity: '0',
-                    }}
-                >
-                    <img src={img} style={{ width: '100%' }} />
-                </motion.div>
-                <motion.div className='contentBorder'
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: false }}
-                    variants={{
-                        visible: { opacity: 1, left: '0' },
-                        hidden: { opacity: 0, left: '-20px' }
-                    }}
-                    transition={{
-                        delay: 0.5,
-                        duration: 0.3,
-                        ease: 'easeIn'
-                    }}
-                    exit={{
-                        opacity: '0',
-                    }}
-                >
-                    <h1>{title}</h1>
-                    <p style={{ color: '#666' }}>{description}</p>
-                </motion.div>
+                <div className='info-img'>
+
+                    <motion.div className='imgBorder'
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: false }}
+                        variants={{
+                            visible: { opacity: 1, left: '0' },
+                            hidden: { opacity: 0, left: '-20px' }
+                        }}
+                        transition={{
+                            delay: 0.4,
+                            duration: 0.2,
+                            ease: 'easeIn'
+                        }}
+                        exit={{
+                            delay: 0,
+                            opacity: '0',
+                        }}
+                    >
+                        <img src={img} style={{ width: '100%'}} className="left-img"/>
+                    </motion.div>
+                    <motion.div className='contentBorder'
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: false }}
+                        variants={{
+                            visible: { opacity: 1, left: '0' },
+                            hidden: { opacity: 0, left: '-20px' }
+                        }}
+                        transition={{
+                            delay: 0.5,
+                            duration: 0.3,
+                            ease: 'easeIn'
+                        }}
+                        exit={{
+                            opacity: '0',
+                        }}
+                    >
+                        <div className="info">
+                            <h1 className="info-h">{title}</h1>
+                            <p className="info-p">{description}</p>
+                        </div>
+                    </motion.div>
+                </div>
             </div>
         </div>
     );

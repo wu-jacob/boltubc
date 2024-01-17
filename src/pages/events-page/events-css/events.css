@@ -1,4 +1,7 @@
-
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+* {
+  box-sizing: content-box;
+}
 .App {
     font-family: outfit;
     text-align: center;
@@ -6,7 +9,7 @@
   }
 
 .timeline {
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -28,11 +31,18 @@
 }
 
 .section-wrapper {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   padding-right: 1000px;
 }
 
 .dynamic-paragraph {
   width: 20px;
 }
+
+
+
+
+
+
+
 
