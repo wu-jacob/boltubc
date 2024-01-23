@@ -6,8 +6,11 @@ import Navbar from "../../components/navbar/navbar.js";
 import Timeline from "./events-components/timeline/timeline.js";
 import Header from "../../components/header-about/header";
 export default function Event() {
+  if (window.innerWidth > 800) {
+    
     changeBackgroundColor();
     window.onscroll = changeBackgroundColor;
+  }
     return (
         <Container>
             <Row>
