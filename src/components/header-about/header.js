@@ -19,7 +19,7 @@ function Header(props) {
                         initial={{ x: -200 }}
                         animate={{ x: 10 }}
                         transition={{ duration: 1.5, type: "spring" }}>
-                        <img src={logo} style={logo_style} />
+                        <img className="bolt-logo" src={logo} />
                         <div className="title">
                             {props.title}
                         </div>

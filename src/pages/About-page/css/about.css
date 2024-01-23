@@ -85,3 +85,11 @@
   
     /* You can add more styles as needed for your smartphone design */
   }
+
+  @media (max-width: 535px) {
+
+    .pres-message {
+        font-size: 1rem;
+    }
+    /* You can add more styles as needed for your smartphone design */
+  }

@@ -63,13 +63,12 @@ svg {
     }
     
     .top {
-        visibility: hidden;
+        visibility: hidden !important;
     }
     
     .bottom {
-        visibility: hidden;
+        visibility: hidden !important;
     }
     
-  
     /* You can add more styles as needed for your smartphone design */
   }

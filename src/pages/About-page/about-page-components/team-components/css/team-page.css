@@ -52,22 +52,22 @@
   width: 200px;
   height: 300px;
   padding: 10px;
-  box-shadow: 5px 10px #888888;
+  /* box-shadow: 5px 10px #888888; */
   align-items: center;
   justify-content: center;
   text-align: center;
   border-radius: 10px;
   margin: 5%;
   background: white;
-  box-shadow: 0px -3px 1px hsl(0deg 0% 0% / 0.035),
+  /* box-shadow: 0px -3px 1px hsl(0deg 0% 0% / 0.035),
     0 3px 3px hsl(0deg 0% 0% / 0.035), 0 4px 4px hsl(0deg 0% 0% / 0.035),
-    0 8px 8px hsl(0deg 0% 0% / 0.035), 0 16px 16px hsl(0deg 0% 0% / 0.035);
+    0 8px 8px hsl(0deg 0% 0% / 0.035), 0 16px 16px hsl(0deg 0% 0% / 0.035); */
 }
 
 .profile-holder:hover {
-  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+  /* box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
-    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075); */
 }
 
 .Finance {
@@ -296,7 +296,30 @@ li.selected {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 425px;
   }
+  .windows.Finance {
+    margin-left: 425px;
+  }
 }
+
+@media (max-width: 535px) {
+  .word-from-pres {
+    margin-top: 65px;
+  }
+  .Development {
+    text-overflow: ellipsis;
+  }
+  .window {
+    margin: 0;
+  }
+}
+
+@media (max-width: 400px) {
+    .card-li {
+      font-size: 0.55rem !important;
+    }
+}
+
+
 
 
 /* Additional CSS styles for text lines, font, etc. */
