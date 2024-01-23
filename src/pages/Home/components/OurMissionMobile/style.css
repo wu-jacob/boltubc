@@ -1,16 +1,18 @@
 .missionTitleMobile {
     font-size: 68px;
+    z-index: 2;
 }
 
 .missionDogMobile {
     height: 200px;
     position: relative;
     top: -10px;
-    left: 50px;
+    left: -50px;
+    z-index: 0;
 }
 
 .missionContentMobile {
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
     position: relative;
     top: -20px;

@@ -69,7 +69,7 @@ function SponsorsMobile() {
                                 delay: 1.1,
                                 ease: 'backInOut',
                             }}
-                            className='becomeourpartner'>Become our partner</motion.p>
+                            className='becomeourpartner'><a href="mailto:boltubc@gmail.com" style={{textDecoration: 'none', color: 'white'}}>Become a Partner</a></motion.p>
                     )}
                 </motion.div>
 
@@ -84,8 +84,7 @@ function SponsorsMobile() {
                     <h1 style={{ color: '#454545' }}>Sponsors </h1>
                     <img src={CPABC} className='cpabcStyleMobile' />
                     <img src={uoft} className='torontoStyleMobile' />
-                    <div style={{ height: '180px' }}></div>
-                    <hr></hr>
+                    <div style={{ height: '20%' }}></div>
                     <h1 style={{ color: '#454545' }}>Affiliated </h1>
                     <img src={cus} className='cusStyleMobile' />
                     <img src={ams} className='amsStyleMobile' />

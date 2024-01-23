@@ -59,9 +59,9 @@ function EventsMobile() {
                 </div>
                 <div className='eventContentMobile'>
                     <div>
-                        <h2>Bolt Connect</h2>
+                        <h2 style={{ marginBottom: 3 }}>Bolt Connect</h2>
                         <p style={{ margin: '0' }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...
                         </p>
                     </div>
                 </div>
@@ -89,9 +89,9 @@ function EventsMobile() {
                 </div>
                 <div className='eventContentMobile'>
                     <div>
-                        <h2>Data Beyond</h2>
+                        <h2 style={{ marginBottom: 3 }}>Data Beyond</h2>
                         <p style={{ margin: '0' }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...
                         </p>
                     </div>
                 </div>
@@ -119,9 +119,9 @@ function EventsMobile() {
                 </div>
                 <div className='eventContentMobile'>
                     <div>
-                        <h2>First Byte</h2>
+                        <h2 style={{ marginBottom: 3 }}>First Byte</h2>
                         <p style={{ margin: '0' }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...
                         </p>
                     </div>
                 </div>
