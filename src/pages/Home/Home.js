@@ -42,7 +42,7 @@ function Home() {
     if (isMobileDevice) {
         // mobile
         return (
-            <body>
+            <body style={{ width: '100%', overflowX: 'hidden' }}>
                 <div className="area">
 
                     <motion.ul
@@ -77,38 +77,7 @@ function Home() {
     } else {
         //desktop
         return (
-            // <body >
-            //     <div className="area">
-
-            //         <motion.ul
-            //             className="circles"
-            //             style={{ y: fasterScroll }}
-            //         >
-            //             <li></li>
-            //             <li></li>
-            //             <li></li>
-            //             <li></li>
-            //             <li></li>
-            //             <li></li>
-            //             <li></li>
-            //             <li></li>
-            //             <li></li>
-            //             <li></li>
-            //         </motion.ul>
-            //     </div>
-
-            //     <div className="context">
-
-            //         <Navbar />
-            //         <BoltUBCTitle />
-            //         <Sponsors />
-            //         <OurMission />
-            //         <div style={{ height: '100px' }}></div>
-            //         <Events />
-            //         <JoinUs />
-            //     </div>
-            // </body>
-            <body style={{width: '100%', overflowX: 'hidden'}}>
+            <body >
                 <div className="area">
 
                     <motion.ul
@@ -127,18 +96,19 @@ function Home() {
                         <li></li>
                     </motion.ul>
                 </div>
+
                 <div className="context">
 
                     <Navbar />
-                    <BoltUBCTitleMobile />
-                    <SponsorsMobile />
-                    <OurMissionMobile />
-                    <div style={{ height: '50px' }}></div>
-                    <EventsMobile />
+                    <BoltUBCTitle />
+                    <Sponsors />
+                    <OurMission />
                     <div style={{ height: '100px' }}></div>
+                    <Events />
                     <JoinUs />
                 </div>
             </body>
+
         );
     }
 
