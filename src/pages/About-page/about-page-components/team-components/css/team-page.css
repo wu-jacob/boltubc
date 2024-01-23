@@ -22,7 +22,6 @@
   0 8px 8px hsla(0deg, 0%, 0%, 0.045),
   0 16px 16px hsla(0deg, 0%, 0%, 0.045);
   flex-direction: column;
-  overflow: auto;
   margin: 5%;
   background-color: white;
   z-index: 1;
@@ -107,6 +106,7 @@
   font-size: 128px;
   flex-grow: 1;
   user-select: none;
+  overflow: hidden;
 }
 
 .card-ul,
@@ -278,7 +278,10 @@ li.selected {
   justify-content: space-between;
   width: 1200px;
   background-color: white;
+  overflow: hidden !important;
 }
+
+
 
 @media (max-width: 1248px) {
   .Finance, .Team, .Marketing, .Development {
