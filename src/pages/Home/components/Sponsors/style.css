@@ -11,10 +11,9 @@
         width: 80%;
         margin: 0 auto;
         padding: 40px;
-        height: 300px;
         position: relative;
         left: 6px;
-        height: 480px;
+        height: 380px;
     }
 
     .becomeourpartner {
@@ -25,33 +24,48 @@
     }
 
 
-    .imgPadding {
-        float: left;
-        padding: 30px;
-    }
-
-    .msftimgStyle {
+    .CPABCimgStyle {
         height: 100px;
     }
 
-    .metaimgStyle {
-        height: 100px;
+    .uoftimgStyle {
+        height: 180px;
+        position: relative;
+        top: -40px;
     }
 
     .mastercardimgStyle {
+        height: 120px;
+    }
+
+    .amsimgStyle {
         height: 100px;
     }
 
-    .EYimgStyle {
-        height: 120px;
-        position: relative;
-        left: 40px;
-        top: -20px
+    .cusimgStyle {
+        height: 100px;
     }
 
-    .DeloitteimgStyle {
+    .title_sponsor {
+        text-align: center;
+    }
+
+    .parntership {
+        margin-top: 0;
+        font-size: 150px;
+        color: rgb(87, 87, 87);
+
+    }
+
+    .nonTitleSponsor {
         position: relative;
-        height: 63px;
+        top: -100px;
+        left: 45%;
+        transform: translateX(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
     }
 }
 
@@ -68,10 +82,9 @@
         width: 80%;
         margin: 0 auto;
         padding: 40px;
-        height: 300px;
         position: relative;
         left: 6px;
-        height: 480px;
+        height: 380px;
     }
 
     .becomeourpartner {
@@ -82,33 +95,48 @@
     }
 
 
-    .imgPadding {
-        float: left;
-        padding: 30px;
-    }
-
-    .msftimgStyle {
+    .CPABCimgStyle {
         height: 100px;
     }
 
-    .metaimgStyle {
-        height: 100px;
+    .uoftimgStyle {
+        height: 180px;
+        position: relative;
+        top: -40px;
     }
 
     .mastercardimgStyle {
+        height: 120px;
+    }
+
+    .amsimgStyle {
         height: 100px;
     }
 
-    .EYimgStyle {
-        height: 120px;
-        position: relative;
-        left: 40px;
-        top: -20px
+    .cusimgStyle {
+        height: 100px;
     }
 
-    .DeloitteimgStyle {
+    .title_sponsor {
+        text-align: center;
+    }
+
+    .parntership {
+        margin-top: 0;
+        font-size: 150px;
+        color: rgb(87, 87, 87);
+
+    }
+
+    .nonTitleSponsor {
         position: relative;
-        height: 63px;
+        top: -100px;
+        left: 45%;
+        transform: translateX(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
     }
 }
 
@@ -125,10 +153,9 @@
         width: 80%;
         margin: 0 auto;
         padding: 40px;
-        height: 300px;
         position: relative;
         left: 6px;
-        height: 480px;
+        height: 380px;
     }
 
     .becomeourpartner {
@@ -139,34 +166,48 @@
     }
 
 
-    .imgPadding {
-        float: left;
-        padding: 30px;
-    }
-
-    .msftimgStyle {
+    .CPABCimgStyle {
         height: 100px;
     }
 
-    .metaimgStyle {
-        height: 100px;
+    .uoftimgStyle {
+        height: 180px;
+        position: relative;
+        top: -40px;
     }
 
     .mastercardimgStyle {
+        height: 120px;
+    }
+
+    .amsimgStyle {
         height: 100px;
     }
 
-    .EYimgStyle {
-        height: 120px;
-        position: relative;
-        left: 40px;
-        top: -20px
+    .cusimgStyle {
+        height: 100px;
     }
 
-    .DeloitteimgStyle {
+    .title_sponsor {
+        text-align: center;
+    }
+
+    .parntership {
+        margin-top: 0;
+        font-size: 150px;
+        color: rgb(87, 87, 87);
+
+    }
+
+    .nonTitleSponsor {
         position: relative;
-        height: 63px;
-        top: 40px;
+        top: -100px;
+        left: 45%;
+        transform: translateX(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
     }
 }
 
@@ -183,9 +224,8 @@
         width: 85%;
         margin: 0 auto;
         padding: 40px;
-        height: 300px;
-        display: flex;
-        justify-content: space-between;
+        height: 500px;
+
     }
 
 
@@ -196,30 +236,48 @@
         top: 5px;
     }
 
-
-    .msftimgStyle {
-        height: 100px;
+    .CPABCimgStyle {
+        height: 140px;
     }
 
-    .metaimgStyle {
-        height: 100px;
+    .uoftimgStyle {
+        height: 210px;
+        position: relative;
+        top: -40px;
     }
 
     .mastercardimgStyle {
-        height: 100px;
-    }
-
-    .EYimgStyle {
         height: 120px;
-        position: relative;
-        left: 40px;
-        top: -20px
     }
 
-    .DeloitteimgStyle {
+    .amsimgStyle {
+        height: 140px;
+    }
+
+    .cusimgStyle {
+        height: 140px;
+    }
+
+    .title_sponsor {
+        text-align: center;
+    }
+
+    .parntership {
+        margin-top: 0;
+        font-size: 150px;
+        color: rgb(87, 87, 87);
+
+    }
+
+    .nonTitleSponsor {
         position: relative;
-        height: 63px;
-        top: 35px;
+        top: -100px;
+        left: 45%;
+        transform: translateX(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
     }
 }
 
@@ -236,9 +294,7 @@
         width: 85%;
         margin: 0 auto;
         padding: 40px;
-        height: 300px;
-        display: flex;
-        justify-content: space-between;
+        height: 500px;
     }
 
 
@@ -249,29 +305,47 @@
         top: 5px;
     }
 
-
-    .msftimgStyle {
-        height: 100px;
+    .CPABCimgStyle {
+        height: 140px;
     }
 
-    .metaimgStyle {
-        height: 100px;
+    .uoftimgStyle {
+        height: 210px;
+        position: relative;
+        top: -40px;
     }
 
     .mastercardimgStyle {
-        height: 100px;
+        height: 150px;
     }
 
-    .EYimgStyle {
-        height: 120px;
-        position: relative;
-        left: 40px;
-        top: -20px
+    .amsimgStyle {
+        height: 140px;
     }
 
-    .DeloitteimgStyle {
+    .cusimgStyle {
+        height: 140px;
+    }
+
+    .title_sponsor {
+        text-align: center;
+    }
+
+    .parntership {
+        margin-top: 0;
+        font-size: 180px;
+        color: rgb(87, 87, 87);
+
+    }
+
+    .nonTitleSponsor {
         position: relative;
-        height: 63px;
-        top: 35px;
+        top: -100px;
+        left: 45%;
+        transform: translateX(-50%);
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+
     }
 }
