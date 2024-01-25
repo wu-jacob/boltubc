@@ -5,6 +5,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Navbar from "../../components/navbar/navbar.js";
 import Timeline from "./events-components/timeline/timeline.js";
 import Header from "../../components/header-about/header";
+import Footer from "../../components/footer/footer.js";
+
+
+
 export default function Event() {
   if (window.innerWidth > 800) {
     
@@ -19,6 +23,8 @@ export default function Event() {
                         <Header className="header" title="Events" titleLineOne="" titleLineTwo=""/>
                         <Navbar />
                         <Timeline />
+                        <Footer />
+                  
                     </div>
                 </Col>
             </Row>

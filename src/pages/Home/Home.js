@@ -39,6 +39,7 @@ function Home() {
     it returns boolean value*/
     let isMobileDevice = regexp.test(details);
 
+    
     if (isMobileDevice) {
         // mobile
         return (
@@ -106,6 +107,7 @@ function Home() {
                     <div style={{ height: '100px' }}></div>
                     <Events />
                     <JoinUs />
+                    
                 </div>
             </body>
 
