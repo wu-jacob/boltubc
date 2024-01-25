@@ -24,7 +24,6 @@ export default function Event() {
                         <Navbar />
                         <Timeline />
                         <Footer />
-                  
                     </div>
                 </Col>
             </Row>
