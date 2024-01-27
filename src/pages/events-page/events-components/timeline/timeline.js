@@ -4,6 +4,7 @@ import Dots from '../dots/dots';
 import Dates from '../dates/dates';
 import Info from '../info/info';
 import "./timeline.css";
+import JoinUs from '../../../Home/components/JoinUs/JoinUs';
 
 function Timeline() {
     // var myElement = document.getElementById("uwu");
@@ -17,7 +18,7 @@ function Timeline() {
 
                     }}
                     animate={{
-                        height: 1700,
+                        height: 2400,
                     }}
                     transition={{
                         duration: 1,
@@ -30,22 +31,23 @@ function Timeline() {
                 >
                 </motion.div>
             </div>
-            <div style={{position: 'absolute', top: 0, width: '100%', height: '100%'}}>
-                <div>
-                    
-                <Dots style={{position: 'relative', top: '300px'}} />
-                </div>
-
-                <div>
-                    
-                <Dates multiplyer={300-58} date="Nov 29, 2023"/> 
-                </div>
-
-                <div>
-                    
-                <Info multiplyer={300-58} image="1" title="November Workshop" description="Get ready for 𝗕𝗢𝗟𝗧 𝗠𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽𝘀 — your destination for diving into the world of marketing analytics! This is a chance to gain direct access to industry pros ranging from Marketing Analysts, Digital Strategists, to Marketing Technology Specialists—get insights and explore career paths. Also, you can expand your professional network within the marketing analytics sphere"/>
-                </div>
                 
+                <div style={{position: 'absolute', top: 0, width: '100%', height: '100%'}}>
+                
+                <Dots style={{position: 'relative', top: '300px'}} />
+
+                    
+                <Dates multiplyer={300-58} date="Feb 3, 2024"/> 
+  
+                    
+                <Info multiplyer={300-58} image="7" title="Bolt Launchpoint" description="BOLT Launchpoint is an event centered around helping students in their career search as this is students current top priority. Students are seeking advice and guidance and BOLT is pairing students together with industry professionals and experienced studetns who have gone through the application process, this is an opportunity for companies to promote themselves and students to find out who to write resumes, cover letters, succeed in the interview and make themselves stand out."/>
+                
+
+                <div style={{height: '300px', width: '100%'}}></div>
+                <Dots style={{position: 'relative', top: '300px'}} />
+                <Dates multiplyer={300-58} date="Nov 29, 2023"/> 
+                <Info multiplyer={300-58} image="6" title="November Workshop" description="Get ready for 𝗕𝗢𝗟𝗧 𝗠𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽𝘀 — your destination for diving into the world of marketing analytics! This is a chance to gain direct access to industry pros ranging from Marketing Analysts, Digital Strategists, to Marketing Technology Specialists—get insights and explore career paths. Also, you can expand your professional network within the marketing analytics sphere"/>
+
                 <div style={{height: '300px', width: '100%'}}></div>
                 <Dots style={{position: 'relative', top: '300px'}} />
                 <Dates multiplyer={300-58} date="Oct 21, 2023"/> 

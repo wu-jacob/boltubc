@@ -71,7 +71,7 @@ function Home() {
                     <div style={{ height: '50px' }}></div>
                     <EventsMobile />
                     <div style={{ height: '100px' }}></div>
-                    <JoinUs />
+                    {/* <JoinUs /> */}
                 </div>
             </body>
         );
@@ -106,7 +106,7 @@ function Home() {
                     <OurMission />
                     <div style={{ height: '100px' }}></div>
                     <Events />
-                    <JoinUs />
+                    {/* <JoinUs /> */}
                     
                 </div>
             </body>

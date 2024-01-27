@@ -23,7 +23,7 @@ export default function Event() {
                         <Header className="header" title="Events" titleLineOne="" titleLineTwo=""/>
                         <Navbar />
                         <Timeline />
-                        <Footer />
+                        {/* <Footer /> */}
                     </div>
                 </Col>
             </Row>
@@ -41,6 +41,8 @@ function changeBackgroundColor() {
       document.body.style.backgroundColor = '#f3deff'; // Section 2 color
     } else if (scrollPosition < 2.4*window.innerHeight) {
       document.body.style.backgroundColor = '#d5c7ff'; // Section 3 color
+    } else if (scrollPosition < 3.2*window.innerHeight) {
+      document.body.style.backgroundColor = '#bea2f2'; // Section 3 color
     }
   }
 // }/

@@ -6,6 +6,8 @@ import img2 from '../../images/2.jpg';
 import img3 from '../../images/3.jpg';
 import img4 from '../../images/4.jpg';
 import img5 from '../../images/5.jpg';
+import img6 from '../../images/6.jpg';
+import img7 from '../../images/7.png';
 
 // needs to take name, picture, and title as props
 // display the card with the picture as the logo, and the name and title following it
@@ -27,6 +29,12 @@ function Info({ image, description, multiplyer, title }) {
             break;
         case "5":
             img = img5
+            break;
+        case "6":
+            img = img6
+            break;
+        case "7":
+            img = img7
             break;
 
     }
