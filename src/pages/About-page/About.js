@@ -112,7 +112,7 @@ function AboutPage() {
                             animate={{ x: 50, opacity: 1 }}
                             transition={{ delay: 0, duration: 1.25 }}
                             className="pres-text">
-                            Alexy Woo
+                            Alexy Lamoot
                         </motion.h2>
                         <motion.h3
                             initial={{ opacity: 0 }}
