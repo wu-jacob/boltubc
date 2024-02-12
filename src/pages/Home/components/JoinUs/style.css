@@ -15,6 +15,7 @@
         border-radius: 100px;
         text-align: center;
         transition: 0.3s;
+        bottom: 0;
     }
     .joinButton:hover{
         cursor: pointer;

@@ -10,6 +10,7 @@ import img2 from '../../../events-page/images/2.jpg';
 import img3 from '../../../events-page/images/3.jpg';
 import img4 from '../../../events-page/images/4.jpg';
 import img5 from '../../../events-page/images/5.jpg';
+import img6 from '../../../events-page/images/6.jpg';
 
 
 function Events() {
@@ -59,7 +60,7 @@ function Events() {
                     <div >
                         <p className='eventTitle'>Bolt Connect</p>
 
-                        <p className='eventContent'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p className='eventContent'>Get ready for 𝗕𝗢𝗟𝗧 𝗖𝗢𝗡𝗡𝗘𝗖𝗧 —your ultimate networking destination! Forge lasting professional connections and gain direct access to industry pros ranging from Data Engineers, Senior Analysts, to Data & AI Engineering Consultants. This is a great opportunity to get insights and explore career paths and expand your LinkedIn network! </p>
                     </div>
                 </motion.div>
                 <br></br>
@@ -80,12 +81,12 @@ function Events() {
                         left: '0'
                     }}>
                     <div className='eventImg'>
-                        <img src={img2} style={{ height: '100%' }} />
+                        <img src={img6} style={{ height: '100%' }} />
                     </div>
                     <div>
-                        <p className='eventTitle'>Data Beyond</p>
+                        <p className='eventTitle'>November Workshop</p>
 
-                        <p className='eventContent'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p className='eventContent'>Get ready for 𝗕𝗢𝗟𝗧 𝗠𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽𝘀 — your destination for diving into the world of marketing analytics! This is a chance to gain direct access to industry pros ranging from Marketing Analysts, Digital Strategists, to Marketing Technology Specialists—get insights and explore career paths. Also, you can expand your professional network within the marketing analytics sphere</p>
                     </div>
                 </motion.div>
                 <br></br>
@@ -111,7 +112,7 @@ function Events() {
                     <div>
                         <p className='eventTitle'>First Byte</p>
 
-                        <p className='eventContent'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p className='eventContent'>BOLT UBC presents '𝗙𝗶𝗿𝘀𝘁 𝗕𝘆𝘁𝗲 𝟮𝟬𝟮𝟯' - your gateway to the world of data analytics! Whether you're a newbie or just curious, this beginner-focused data analytics themed case competition is your chance to learn, connect, and compete!</p>
                     </div>
                 </motion.div>
             </div>
