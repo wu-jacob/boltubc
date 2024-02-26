@@ -52,10 +52,10 @@ const Navbar = () => {
                                 <p className="nav_bar_text">Events</p>
                             </a>
                         </div>
-                        <div className='NavBarContentParts'>
+                        {/* <div className='NavBarContentParts'>
                             <div style={gap} className='hideForMobile'></div>
                             <p className="nav_bar_text">Contact</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
