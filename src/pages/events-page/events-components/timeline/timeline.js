@@ -33,15 +33,15 @@ function Timeline() {
             </div>
                 
                 <div style={{position: 'absolute', top: 0, width: '100%', height: '100%'}}>
-                
                 <Dots style={{position: 'relative', top: '300px'}} />
-
-                    
-                <Dates multiplyer={300-58} date="Feb 3, 2024"/> 
-  
-                    
-                <Info multiplyer={300-58} image="7" title="Bolt Launchpoint" description="BOLT Launchpoint is an event centered around helping students in their career search as this is students current top priority. Students are seeking advice and guidance and BOLT is pairing students together with industry professionals and experienced studetns who have gone through the application process, this is an opportunity for companies to promote themselves and students to find out who to write resumes, cover letters, succeed in the interview and make themselves stand out."/>
+                <Dates multiplyer={300-58} date="March 21-30, 2024"/>    
+                <Info multiplyer={300-58} image="8" title="Bolt Bootcamp" description="Our annual 𝗕𝗢𝗟𝗧 𝗕𝗢𝗢𝗧𝗖𝗔𝗠𝗣 is a week-long event running from 𝗠𝗮𝗿𝗰𝗵 𝟮𝟭𝘀𝘁 𝘁𝗼 𝗠𝗮𝗿𝗰𝗵 𝟯𝟬𝘁𝗵, packed full with exciting opportunities to learn, connect, and express creativity through hands-on challenges! You will also have the opportunity to win $𝟳𝟬𝟬 𝗮𝘀 𝗼𝘂𝗿 𝗳𝗶𝗿𝘀𝘁 𝗽𝗿𝗶𝘇𝗲! Registration opens soon!"/>
                 
+                <div style={{height: '300px', width: '100%'}}></div>
+                <Dots style={{position: 'relative', top: '300px'}} />
+                <Dates multiplyer={300-58} date="Feb 3, 2024"/> 
+                <Info multiplyer={300-58} image="7" title="Bolt Launchpoint" description="BOLT Launchpoint is an event centered around helping students in their career search as this is students current top priority. Students are seeking advice and guidance and BOLT is pairing students together with industry professionals and experienced studetns who have gone through the application process, this is an opportunity for companies to promote themselves and students to find out who to write resumes, cover letters, succeed in the interview and make themselves stand out."/>
+
 
                 <div style={{height: '300px', width: '100%'}}></div>
                 <Dots style={{position: 'relative', top: '300px'}} />
