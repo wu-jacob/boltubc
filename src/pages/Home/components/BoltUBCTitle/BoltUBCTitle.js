@@ -13,7 +13,7 @@ function BoltUBCTitle() {
             <div className='first_text_position'>
                 <div>
                     <h1 className='ubc'><h1 className='bolt'>BOLT</h1> UBC</h1>
-                    <p className='catchPhrase'>Unleash the power of data analytics</p>
+                    <p className='catchPhrase'>Unleash the power of data analytics!</p>
                     <motion.div
                         initial={{
                             width: '40px',
