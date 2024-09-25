@@ -52,7 +52,7 @@ function BoltUBCTitleMobile() {
                                 delay: 0.5,
                                 ease: 'backInOut',
                             }}
-                            className='becomeourpartner member-button'><a href="https://docs.google.com/forms/d/e/1FAIpQLScGMtIY9xvBwmxM-29JsCiem7Mqpx6H7qAZCiVEq7i5amVK-w/viewform" style={{ color: 'white', textDecoration: 'none' }}>Become a Member!</a>
+                            className='becomeourpartner member-button'><a href="https://docs.google.com/forms/d/e/1FAIpQLScGMtIY9xvBwmxM-29JsCiem7Mqpx6H7qAZCiVEq7i5amVK-w/viewform" style={{ color: 'white', textDecoration: 'none' }}>Become a member!</a>
                         </motion.p>
                     </motion.div>
         </div>
